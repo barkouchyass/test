@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Acheter des légumes",
+      "description": "Acheter des légumes pour le dîner",
+      "date": "2024-06-27",
+      "time": "18:00"
+    },
+    {
+      "id": "2",
+      "title": "Réunion avec l'équipe",
+      "description": "Réunion pour discuter du projet X",
+      "date": "2024-06-28",
+      "time": "10:00"
+    },
+    {
+      "id": "3",
+      "title": "Envoyer le rapport",
+      "description": "Envoyer le rapport mensuel à la direction",
+      "date": "2024-06-29",
+      "time": "15:00"
+    },
+    {
+      "id": "4",
+      "title": "Cours de yoga",
+      "description": "Participer au cours de yoga en ligne",
+      "date": "2024-06-30",
+      "time": "07:00"
+    },
+    {
+      "id": "5",
+      "title": "Dormir",
+      "description": "Dormir pour avoir plus d'énergie",
+      "date": "2024-07-01",
+      "time": "08:01"
+    },
+    {
+      "id": "6",
+      "title": "Déjeuner",
+      "description": "Déjeuner lundi et jeudi",
+      "date": "2024-07-12",
+      "time": "07:00"
+    },
+    {
+      "id": "7",
+      "title": "date de congé",
+      "description": "prendre une date de congé",
+      "date": "2024-07-18",
+      "time": "03:00"
+    }
+  ]
+}
