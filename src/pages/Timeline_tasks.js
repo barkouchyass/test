@@ -62,10 +62,10 @@ function TaskList() {
             <button onClick={() => fetchTasks()} type="button" className="btn btn-primary me-2">Rafraîchir</button>
 
             <div
-                style={{ maxHeight: '400px', overflowY: 'scroll' }}
+                style={{ maxHeight: '160px', overflowY: 'scroll' }}
                 onScroll={handleScroll}
             >
-                <table className="table">
+                <table className="table" style={{ height: '20vh' }}>
                     <thead>
                         <tr>
                             <th>Titre</th>
@@ -74,6 +74,7 @@ function TaskList() {
                             <th>Heure</th>
                         </tr>
                     </thead>
+                    
                     <tbody>
                         {showPastTasks && sortedPastTasks.map((task, index) => (
                             <tr key={index} className="table-danger">
@@ -92,6 +93,7 @@ function TaskList() {
                             </tr>
                         ))}
                     </tbody>
+                    
                 </table>
             </div>
         </>
