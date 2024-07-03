@@ -8,7 +8,12 @@ In the project directory, you can run:
 
 ### `npx json-server --watch db.json --port 3006`
 
-open a new terminal
+open a new terminal and run 
+
+
+### `npm install react-scripts --save`
+
+after open the project using the command
 
 ### `npm start`
 
